@@ -1,0 +1,8 @@
+.venv/
+.venv312/
+__pycache__/
+.env
+.pytest_cache/
+*.pyc
+reports/
+apikeys.env
