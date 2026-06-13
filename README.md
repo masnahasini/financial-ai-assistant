@@ -2,8 +2,6 @@
 
 An AI-powered Financial Research Assistant for Indian stock markets. It uses Streamlit, Plotly, yfinance, NewsAPI, SQLite, LangChain, and Gemini to analyze stocks, news sentiment, technical indicators, watchlists, portfolios, comparisons, and PDF reports.
 
-> Educational purposes only. This is not financial advice.
-
 ## Complete Folder Structure
 
 ```text
