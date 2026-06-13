@@ -166,7 +166,7 @@ def render_research_tab():
         sentiment = result["sentiment"]
         history = result["history"]
 
-        st.caption("Educational purposes only. This is not financial advice.")
+    
         cols = st.columns(6)
         cols[0].metric("Current Price", format_currency(quote.get("current_price")))
         cols[1].metric("Open", format_currency(quote.get("open")))
@@ -347,7 +347,7 @@ def render_dashboard_tab():
 
 
 st.title("Financial Research AI Agent")
-st.caption("Indian stock market research assistant. Educational purposes only. This is not financial advice.")
+st.caption("Indian stock market research assistant.")
 
 tabs = st.tabs(["Research", "Dashboard", "Compare", "Watchlist", "Portfolio"])
 with tabs[0]:
