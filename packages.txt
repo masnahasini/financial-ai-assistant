@@ -1,0 +1,5 @@
+build-essential
+pkg-config
+zlib1g-dev
+libjpeg62-turbo-dev
+libpng-dev
